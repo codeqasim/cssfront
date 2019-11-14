@@ -1,0 +1,10 @@
+.tab-wrapper{width:100%;margin:0 auto;height:200px}
+.tabs{position:relative}.tabs::before,.tabs::after{content:"";display:table}
+.tabs::after{clear:both}
+.tab{float:left}
+.tab-switch{display:none}
+.tab-label{text-transform:uppercase;position:relative;display:block;line-height:2.75em;height:3em;padding:0 4em;color:#000;cursor:pointer;top:0;transition:all 0.25s}
+.tab-content{position:absolute;z-index:1;top:2.75em;left:0;padding:1rem 0;background:#fff;color:#2c3e50;opacity:0;transition:all 0.35s}
+.tab-label:hover{background:#eee}
+.tab-switch:checked + .tab-label{background:#fff;border-bottom:3px solid #3f51b5;color:#2c3e50;transition:all 0.35s;z-index:1;top:-.1625rem}
+.tab-switch:checked + label + .tab-content{z-index:2;opacity:1;transition:all 0.35s;border-top:1px solid #eee}

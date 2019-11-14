@@ -1,0 +1,102 @@
+/*
+
+CSSKit Inspired by Google Material Concept 
+Desgined and Coded by Qasim Hussain
+
+Color pellets and codes : 
+
+wh -> white
+bk -> Black 
+bl -> Blue 
+gr -> Green
+rd -> Red
+yl -> Yellow
+or -> Orange 
+
+*/
+
+@import url("elements/side-menu.css");
+@import url("elements/cards.css");
+@import url("elements/loader.css");
+@import url("elements/button.css");
+@import url("elements/progress.css");
+@import url("elements/accordion.css");
+@import url("elements/tabs.css");
+@import url("elements/pace.css");
+
+*{text-decoration:none;  box-sizing: border-box;}
+body { margin: 0px; font-family: Roboto,"Helvetica Neue",sans-serif; font-size: 14px; }
+header nav img { vertical-align: middle; }
+header nav { padding: 2px 16px; box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);position: relative; }
+header nav ul { display: flex; flex-wrap: wrap; margin: 0px; list-style: none; width: 100%;align-items: center; padding: 8px 0px; }
+header nav ul li a { font-weight: 500; box-sizing: border-box; position: relative; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; cursor: pointer; outline: 0; border: none; -webkit-tap-highlight-color: transparent; display: inline-block; white-space: nowrap; text-decoration: none; vertical-align: baseline; text-align: center; margin: 0; min-width: 64px; line-height: 36px; padding: 0 16px; border-radius: 4px; overflow: visible; }
+header nav ul li a:hover { background: rgba(0, 0, 0, 0.04); }
+
+ul{margin:0px;padding:0px;list-style:none}
+
+.brand-icon { height: 26px; margin: 0 0px 2px 0; }
+.head { background: #3f51b5; padding: 0 20px; }
+.head h1 { font-weight: 300; margin: 0; padding: 28px 8px; font-size: 20px; color: #fff; }
+
+.fg1{flex-grow:1;}
+
+.bg-wh { background: #ffffff; }
+.bg-bl { background: #3f51b5; }
+.bg-bk { background: #000000; }
+.bg-gr { background: #1ECC6A; }
+.bg-rd { background: #CC4055; }
+.bg-yl { background: #EBEB00; }
+.bg-or { background: #FF661A; }
+
+.co-wh,.co-wh a { color: #ffffff; }
+.co-bl,.co-bl a { color: #3f51b5; }
+.co-bk,.co-bk a { color: #000000; }
+.co-gr,.co-gr a { color: #1ECC6A; }
+.co-rd,.co-rd a { color: #CC4055; }
+.co-yl,.co-yl a { color: #EBEB00; }
+.co-or,.co-or a { color: #FF661A; }
+
+/* margins */
+.mb-15{margin-bottom:15px}
+
+/* heights*/
+.he-60{height:60px}
+.he-50{height:50px}
+.he-40{height:40px}
+.he-30{height:30px}
+.he-20{height:20px}
+
+.m1r{ margin: 1rem }
+
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.svg-icon {
+  width: 0.7em;
+  height: 0.7em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: rgba(0,0,0,.5);
+}
+
+.svg-icon circle {
+  stroke: rgba(0,0,0,.5);
+  stroke-width: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
