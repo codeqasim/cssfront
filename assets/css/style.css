@@ -29,7 +29,9 @@ or -> Orange
 }
 
 *{text-decoration:none;  box-sizing: border-box;}
-body { font-display: swap; padding-top: 56px;margin: 0px; font-family: Roboto,"Helvetica Neue",sans-serif; font-size: 14px; background: rgb(250, 250, 250);}
+body { text-rendering: optimizeLegibility; font-display: swap; padding-top: 56px;margin: 0px; font-family: Roboto,"Helvetica Neue",sans-serif; font-size: 14px; background: rgb(250, 250, 250);}
+ul{margin:0px;padding:0px;list-style:none}
+
 header nav img { vertical-align: middle; }
 header nav { padding: 2px 16px; box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);position: relative; }
 header nav ul { display: flex; flex-wrap: wrap; margin: 0px; list-style: none; width: 100%;align-items: center; padding: 8px 0px; }
@@ -46,9 +48,6 @@ footer .version { display: flex; justify-content: center; align-items: center; f
 footer .version img { height: 40px; margin: 10px 0 10px 16px; }
 footer .version p { margin: 0 40px; }
 footer a { color: #fff; }
-
-
-ul{margin:0px;padding:0px;list-style:none}
 
 .brand-icon { height: 26px; margin: 0 0px 2px 0; }
 .headsec { background: #3f51b5; padding: 0 20px; }
@@ -171,4 +170,3 @@ SVG Icons - svgicons.sparkk.fr
 .layout { width: 75%; } 
 .sidebar { width: 25%; height: 25vh; } 
 .sidebar { position: -webkit-sticky; position: sticky; top: 0; }
-
