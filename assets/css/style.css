@@ -38,7 +38,7 @@ header nav { padding: 2px 16px; box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px
 header nav ul { display: flex; flex-wrap: wrap; margin: 0px; list-style: none; width: 100%;align-items: center; padding: 4px 0px; }
 header nav ul li a { font-weight: 500; box-sizing: border-box; position: relative; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; cursor: pointer; outline: 0; border: none; -webkit-tap-highlight-color: transparent; display: inline-block; white-space: nowrap; text-decoration: none; vertical-align: baseline; text-align: center; margin: 0; min-width: 64px; line-height: 36px; padding: 0 16px; overflow: visible; }
 header nav ul li a:hover { background: rgba(0, 0, 0, 0.04); }
-header [fix] { position: fixed; width: 100%; top: 0px; z-index: 100}
+header [fix] { position: fixed; width: 100%; top: 0px; z-index: 100; min-height: 50px}
 
 footer { padding: 12px; font-size: 12px; margin-top: 40px; background: #3f51b5; color: #fff; }
 footer .contents { align-items: center; display: flex; flex-flow: row wrap; padding: 8px; }
@@ -127,7 +127,7 @@ app-homepage .docs-homepage-row{color:rgba(0,0,0,.54)}
 .bg-or { background: #FF661A; }
 
 .co-wh,.co-wh a { color: #ffffff; }
-.co-bl,.co-bl a { color: #3f51b5; }
+.co-bl,.co-bl a { color: #3f51b5 !important; }
 .co-bk,.co-bk a { color: #000000; }
 .co-gr,.co-gr a { color: #1ECC6A; }
 .co-rd,.co-rd a { color: #CC4055; }

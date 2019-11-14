@@ -111,7 +111,6 @@
 	/*** menu ***/
 	.navbar ul ul, .navbar ul .menu-wrapper {
 		position: absolute;
-		display: block;
 		visibility: hidden;
 		z-index: 1;
 		height: auto;
@@ -121,6 +120,7 @@
 		padding: 0;
 		background: #fff;
 		opacity: 0;
+		    display: table;
 	}
 
 	.navbar ul li:hover > ul, .navbar ul li:hover > .menu-wrapper {
@@ -264,6 +264,11 @@
 		right: 0;
 		top: 0;
 		z-index: 9999;
+		    background: #fff;
+
+		        -webkit-box-shadow: rgba(0,0,0,.37) 0 50px 100px, rgba(0,0,0,.22) 0 5px 50px;
+    box-shadow: rgba(0,0,0,.37) 0 50px 100px, rgba(0,0,0,.22) 0 5px 50px;
+    
 	}
 	
 	input.navbar-button {
@@ -314,7 +319,9 @@
 	.navbar h3, .navbar ul li a {
 		border-top: 1px solid transparent;
 		border-bottom: 1px solid rgba(100%, 100%, 100%, 0.2);
-		color: #fff;
+		color: #000;
+		    display: block;
+    text-align: left;
 	}
 	
 	.navbar h3 {
@@ -357,6 +364,7 @@
 	
 	.navbar ul > li {
 		padding-bottom: 0;
+		width: 100%;
 	}
 
 	.navbar > ul > li:hover > a,
