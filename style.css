@@ -21,13 +21,21 @@ header nav ul { display: flex; flex-wrap: wrap; margin: 0px; list-style: none; w
 header nav ul li a { font-weight: 500; box-sizing: border-box; position: relative; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; cursor: pointer; outline: 0; border: none; -webkit-tap-highlight-color: transparent; display: inline-block; white-space: nowrap; text-decoration: none; vertical-align: baseline; text-align: center; margin: 0; min-width: 64px; line-height: 36px; padding: 0 16px; border-radius: 4px; overflow: visible; }
 header nav ul li a:hover { background: rgba(0, 0, 0, 0.04); }
 
-.bg .wh { background: #ffffff; }
-header .bg .bl { background: #3f51b5; }
-.bg .bk { background: #000000; }
-.bg .gr { background: #1ECC6A; }
-.bg .rd { background: #CC4055; }
-.bg .yl { background: #EBEB00; }
-.bg .or { background: #FF661A; }
+.bg-wh { background: #ffffff; }
+.bg-bl { background: #3f51b5; }
+.bg-bk { background: #000000; }
+.bg-gr { background: #1ECC6A; }
+.bg-rd { background: #CC4055; }
+.bg-yl { background: #EBEB00; }
+.bg-or { background: #FF661A; }
+
+.co-wh,.co-wh a { color: #ffffff; }
+.co-bl,.co-bl a { color: #3f51b5; }
+.co-bk,.co-bk a { color: #000000; }
+.co-gr,.co-gr a { color: #1ECC6A; }
+.co-rd,.co-rd a { color: #CC4055; }
+.co-yl,.co-yl a { color: #EBEB00; }
+.co-or,.co-or a { color: #FF661A; }
 
 .brand-icon { height: 26px; margin: 0 0px 2px 0; }
 .head { background: #3f51b5; padding: 0 20px; }
