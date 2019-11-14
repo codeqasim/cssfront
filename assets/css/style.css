@@ -15,6 +15,7 @@ or -> Orange
 
 */
 
+@import url("elements/navbar.css");
 @import url("elements/side-menu.css");
 @import url("elements/cards.css");
 @import url("elements/loader.css");
@@ -34,8 +35,8 @@ ul{margin:0px;padding:0px;list-style:none}
 
 header nav img { vertical-align: middle; }
 header nav { padding: 2px 16px; box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);position: relative; }
-header nav ul { display: flex; flex-wrap: wrap; margin: 0px; list-style: none; width: 100%;align-items: center; padding: 8px 0px; }
-header nav ul li a { font-weight: 500; box-sizing: border-box; position: relative; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; cursor: pointer; outline: 0; border: none; -webkit-tap-highlight-color: transparent; display: inline-block; white-space: nowrap; text-decoration: none; vertical-align: baseline; text-align: center; margin: 0; min-width: 64px; line-height: 36px; padding: 0 16px; border-radius: 4px; overflow: visible; }
+header nav ul { display: flex; flex-wrap: wrap; margin: 0px; list-style: none; width: 100%;align-items: center; padding: 4px 0px; }
+header nav ul li a { font-weight: 500; box-sizing: border-box; position: relative; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; cursor: pointer; outline: 0; border: none; -webkit-tap-highlight-color: transparent; display: inline-block; white-space: nowrap; text-decoration: none; vertical-align: baseline; text-align: center; margin: 0; min-width: 64px; line-height: 36px; padding: 0 16px; overflow: visible; }
 header nav ul li a:hover { background: rgba(0, 0, 0, 0.04); }
 header [fix] { position: fixed; width: 100%; top: 0px; z-index: 100}
 
