@@ -25,7 +25,7 @@ or -> Orange
 @import url("elements/pace.css");
 
 *{text-decoration:none;  box-sizing: border-box;}
-body { margin: 0px; font-family: Roboto,"Helvetica Neue",sans-serif; font-size: 14px; }
+body { margin: 0px; font-family: Roboto,"Helvetica Neue",sans-serif; font-size: 14px; /*opacity:0;*/}
 header nav img { vertical-align: middle; }
 header nav { padding: 2px 16px; box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);position: relative; }
 header nav ul { display: flex; flex-wrap: wrap; margin: 0px; list-style: none; width: 100%;align-items: center; padding: 8px 0px; }
