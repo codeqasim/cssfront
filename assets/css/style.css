@@ -24,6 +24,10 @@ or -> Orange
 @import url("elements/tabs.css");
 @import url("elements/pace.css");
 
+:root {  
+  --compo: left;  
+}
+
 *{text-decoration:none;  box-sizing: border-box;}
 body { margin: 0px; font-family: Roboto,"Helvetica Neue",sans-serif; font-size: 14px;}
 header nav img { vertical-align: middle; }
@@ -31,6 +35,17 @@ header nav { padding: 2px 16px; box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px
 header nav ul { display: flex; flex-wrap: wrap; margin: 0px; list-style: none; width: 100%;align-items: center; padding: 8px 0px; }
 header nav ul li a { font-weight: 500; box-sizing: border-box; position: relative; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; cursor: pointer; outline: 0; border: none; -webkit-tap-highlight-color: transparent; display: inline-block; white-space: nowrap; text-decoration: none; vertical-align: baseline; text-align: center; margin: 0; min-width: 64px; line-height: 36px; padding: 0 16px; border-radius: 4px; overflow: visible; }
 header nav ul li a:hover { background: rgba(0, 0, 0, 0.04); }
+
+#compo{content: ;}
+
+.head h1 {
+  text-indent:-9999px;
+}
+.head h1:before {
+  text-indent:0;
+  content:"compo";
+  float:var(--compo);
+} 
 
 ul{margin:0px;padding:0px;list-style:none}
 
@@ -87,16 +102,3 @@ SVG Icons - svgicons.sparkk.fr
   stroke: rgba(0,0,0,.5);
   stroke-width: 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
