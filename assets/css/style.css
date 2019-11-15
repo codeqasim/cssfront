@@ -128,11 +128,11 @@ footer .rights{justify-content: center;width: 100%}
 
 .navbar ul li:first-child{
     opacity: 1;
-    position: relative;
+    position: absolute;
     left: 184%;
     visibility: visible;
     z-index: 9999999999999999;
-    top:-10rem;
+
 
 }
 .navbar ul li:first-child a{
@@ -141,12 +141,31 @@ footer .rights{justify-content: center;width: 100%}
     color: #fff;
 }
 
+
 .navbar {
     overflow: visible;
     opacity: 1;
 }
 
 }
+@media (min-width: 200px){
+    .navbar ul li:first-child{
+        transform: translate(-6rem, -19rem);
+    }
+}
+@media (min-width: 470px){
+    .navbar ul li:first-child{
+        transform: translate(0rem, -19rem);
+    }
+}
+@media (min-width: 768px){
+    .navbar ul li:first-child{
+        position: static;
+        transform: translate(0rem, 0rem);
+    }
+}
+
+
 @media(max-width: 992px){
 footer .brand-text{margin: 0px 11px;}
 footer .version p{margin: 0px 11px;}
