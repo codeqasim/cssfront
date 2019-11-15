@@ -43,9 +43,10 @@ header [fix] { position: fixed; width: 100%; top: 0px; z-index: 100; min-height:
 
 footer { padding: 12px; font-size: 12px; margin-top: 100px; background: #3f51b5; color: #fff; }
 footer .contents { align-items: center; display: flex; flex-flow: row wrap; padding: 8px; }
-footer .rights { display: flex; flex: 1; justify-content: flex-end; text-align: center; min-width: 225px; margin-top: 16px; }
+footer .contents a{ justify-content: center; align-items: center; }
+footer .rights { display: flex; flex: 1; justify-content: flex-end; text-align: center; min-width: 225px }
 footer .brand-icon { height: 50px; }
-footer .brand-text { display: inline-block; line-height: 50px; margin: 0 40px; vertical-align: bottom; font-size: 16px; padding: 0; }
+footer .brand-text { display: inline-block; line-height: 50px; margin: 0 40px; vertical-align: bottom; padding: 0; }
 footer .version { display: flex; justify-content: center; align-items: center; flex: 1; background: rgba(255, 255, 255, 0.12); border-radius: 5px; padding: 3px;}
 footer .version img { height: 40px; margin: 10px 0 10px 16px; }
 footer .version p { margin: 0 40px; }
@@ -119,16 +120,14 @@ app-homepage .docs-homepage-row{color:rgba(0,0,0,.54)}
 .container-fluid { padding-right: 0.5rem; padding-left: 0.5rem; }
 .home h2 { font-size: 16px !important; margin: 0 0 4px !important; }
 .home p { font-size: 13px !important; font-weight: 400; line-height: 16px !important; margin: 0 0 23px; padding: 0; }
-footer .contents .f1{flex: 1 1 100%}
 footer .contents .version{flex: 1 1 100%}
 footer a{display: flex;}
-footer .version{justify-content: flex-start;font-size:16px;}
 footer .version img{margin: 10px 0 10px 6px;}
-footer .rights{justify-content: center;width: 100%}
+footer .rights{justify-content: center;width: 100%} 
 }
 @media(max-width: 992px){
 footer .brand-text{margin: 0px 11px;}
-footer .version p{margin: 0px 11px;}
+footer .version p{margin: 0px 11px;} 
 }
 
 
@@ -187,8 +186,6 @@ SVG Icons - svgicons.sparkk.fr
 .layout {  } 
 .sidebar { height: 25vh; } 
 .sidebar { position: -webkit-sticky; position: sticky; top: 56px; }
-
-
 
 /* Flexbox Styling */
 .box,.box-first,.box-large,.box-nested,.box-row{position:relative;box-sizing:border-box;min-height:1rem;margin-bottom:0;background:#3f51b5;border:1px solid #FFF;border-radius:2px;overflow:hidden;text-align:center;color:#fff}
