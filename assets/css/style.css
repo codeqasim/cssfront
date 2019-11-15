@@ -1,7 +1,7 @@
 /*
 
-CSSKit Inspired by Google Material Concept 
-Desgined and Coded by Qasim Hussain
+CSSFront.com Inspired by Google Material Concept 
+Desgined and Coded by Qasim Hussain | Naveed Ahmed
 
 Color pellets and codes : 
 
@@ -24,7 +24,6 @@ or -> Orange
 @import url("elements/progress.css");
 @import url("elements/accordion.css");
 @import url("elements/tabs.css");
-
 
 :root {  
   --compo: left;  
@@ -114,8 +113,6 @@ app-homepage .docs-homepage-row{color:rgba(0,0,0,.54)}
   content:"compo";
   float:var(--compo);
 } */
-
-
 
 /* Resposnive */
 @media(max-width: 768px){
