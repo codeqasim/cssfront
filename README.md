@@ -12,72 +12,24 @@ These include Material Design components along with CSS and source files of proj
 ### Getting started
 
 See our [Getting Started Guide][getting-started]
-if you're building your first project with Angular Material.
+if you're building your first project with CSSFront Material.
 
-Check out our [Documents](https://github.com/angular/components/wiki/Design-doc-directory)
+Check out our [Documents](https://qaxim.github.io/cssfront/docs)
 for more insight into our process.
 
-#### High level stuff planned for Q4 2019 (Oct  - Nov):
-* Remove dependency on HammerJS
-* Finish remaining test harnesses for Angular Material components
-* Continuing to create new, API-compatible versions of the Angular Material components backed by
-MDC Web ([see @jelbourn's ng-conf talk](https://youtu.be/4EXQKP-Sihw?t=891)).
-* New `@angular/google-maps` package
-* New `@angular/cdk/clipboard` subpackage
 
 
 #### Available features
 
 | Feature          | Notes                                                  | Docs         |
 |------------------|--------------------------------------------------------|--------------|
-| autocomplete     |                                                        |   [Docs][24] |
-| badge            |                                                        |   [Docs][37] |
-| bottom-sheet     |                                                        |   [Docs][38] |
-| button           |                                                        |   [Docs][1]  |
-| button-toggle    |                                                        |   [Docs][15] |
-| cards            |                                                        |   [Docs][2]  |
-| checkbox         |                                                        |   [Docs][3]  |
-| chips            |                                                        |   [Docs][26] |
-| data-table       |                                                        |   [Docs][28] |
-| datepicker       |                                                        |   [Docs][25] |
-| dialog           |                                                        |   [Docs][22] |
-| divider          |                                                        |   [Docs][35] |
-| drag-drop        |                                                        |   [Docs][39] |
-| expansion-panel  |                                                        |   [Docs][32] |
-| grid-list        |                                                        |   [Docs][9]  |
-| icon             |                                                        |   [Docs][10] |
-| input            |                                                        |   [Docs][5]  |
-| list             |                                                        |   [Docs][8]  |
-| menu             |                                                        |   [Docs][17] |
-| paginator        |                                                        |   [Docs][29] |
-| progress-bar     |                                                        |   [Docs][12] |
-| progress-spinner |                                                        |   [Docs][11] |
-| radio            |                                                        |   [Docs][4]  |
-| ripples          |                                                        |   [Docs][19] |
-| select           |                                                        |   [Docs][23] |
-| sidenav          |                                                        |   [Docs][6]  |
-| slide-toggle     |                                                        |   [Docs][14] |
-| slider           |                                                        |   [Docs][16] |
-| snackbar / toast |                                                        |   [Docs][21] |
-| sort-header      |                                                        |   [Docs][30] |
-| stepper          |                                                        |   [Docs][33] |
-| tabs             |                                                        |   [Docs][13] |
-| textarea         |                                                        |   [Docs][5]  |
-| toolbar          |                                                        |   [Docs][7]  |
-| tooltip          |                                                        |   [Docs][18] |
-| tree             |                                                        |   [Docs][36] |
-| virtual-scroll   |                                                        |   [Docs][40] |
+| textarea         |                                                        |   [Docs][1]  |
 | ---------------- | ------------------------------------------------------ | ------------ |
-| theming          |                                                        |  [Guide][20] |
-| typography       |                                                        |  [Guide][27] |
-| layout           | See [CDK Layout][cdk-layout] or [@angular/flex-layout][lay_rp]| -     |
-| cdk              |                                                        |   [Docs][34] |
+| theming          |                                                        |  [Guide][2] |
 
- [1]: https://material.angular.io/components/button/overview
- [2]: https://material.angular.io/components/card/overview
- [3]: https://material.angular.io/components/checkbox/overview
- [4]: https://material.angular.io/components/radio/overview
- [5]: https://material.angular.io/components/input/overview
+
+ [1]: https://qaxim.github.io/cssfront/themes
+
  
 ## The goal of CSSFront Material 
 Our goal is to build a set of high-quality UI components built with CSSFront and Material Concept.
