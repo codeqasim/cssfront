@@ -191,55 +191,8 @@ SVG Icons - svgicons.sparkk.fr
 
 
 
-.box, .box-first, .box-large, .box-nested, .box-row {
-    position: relative;
-    box-sizing: border-box;
-    min-height: 1rem;
-    margin-bottom: 0;
-    background: #3f51b5;
-    border: 1px solid #FFF;
-    border-radius: 2px;
-    overflow: hidden;
-    text-align: center;
-    color: #fff;
-}
-
-@media only screen and (min-width: 48rem) {
-.box, .box-first, .box-large, .box-nested, .box-row {
-    padding: 1rem;
-} }
-
-.box-row {
-    margin-bottom: 1rem;
-}
-
-.box-nested {
-    background: #036;
-    border-color: #007FFF;
-}
-
-.box-first {
-    background: #06C;
-    border-color: #007FFF;
-}
-
-pre {
-    overflow-x: auto;
-    padding: 1.25em;
-    border: 1px solid #e6e6e6;
-    border-left-width: 5px;
-    margin: 1.6em 0;
-    font-size: .875em;
-    background: #ffffff;
-    white-space: pre;
-    word-wrap: normal;
-}
-
-code {
-    color: #007FFF;
-}
-
-code, kbd, pre, samp {
-    font-family: monospace,serif;
-    font-size: 1em;
-}
+/* Flexbox Styling */
+.box,.box-first,.box-large,.box-nested,.box-row{position:relative;box-sizing:border-box;min-height:1rem;margin-bottom:0;background:#3f51b5;border:1px solid #FFF;border-radius:2px;overflow:hidden;text-align:center;color:#fff}
+@media only screen and (min-width:48rem){.box,.box-first,.box-large,.box-nested,.box-row{padding:1rem}.box-row{margin-bottom:1rem}}
+.box-nested{background:#036;border-color:#007FFF}
+.box-first{background:#06C;border-color:#007FFF}pre{overflow-x:auto;padding:1.25em;border:1px solid #e6e6e6;border-left-width:5px;margin:1.6em 0;font-size:.875em;background:#fff;white-space:pre;word-wrap:normal}code{color:#007FFF}code,kbd,pre,samp{font-family:monospace,serif;font-size:1em}
