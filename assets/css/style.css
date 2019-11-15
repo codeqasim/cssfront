@@ -15,6 +15,7 @@ or -> Orange
 
 */
 
+@import url("flexbox.css");
 @import url("elements/navbar.css");
 @import url("elements/side-menu.css");
 @import url("elements/cards.css");
@@ -40,7 +41,7 @@ header nav ul li a { font-weight: 500; box-sizing: border-box; position: relativ
 header nav ul li a:hover { background: rgba(0, 0, 0, 0.04); }
 header [fix] { position: fixed; width: 100%; top: 0px; z-index: 100; min-height: 56px}
 
-footer { padding: 12px; font-size: 12px; margin-top: 40px; background: #3f51b5; color: #fff; }
+footer { padding: 12px; font-size: 12px; margin-top: 100px; background: #3f51b5; color: #fff; }
 footer .contents { align-items: center; display: flex; flex-flow: row wrap; padding: 8px; }
 footer .rights { display: flex; flex: 1; justify-content: flex-end; text-align: center; min-width: 225px; margin-top: 16px; }
 footer .brand-icon { height: 50px; }
@@ -113,6 +114,10 @@ app-homepage .docs-homepage-row{color:rgba(0,0,0,.54)}
   float:var(--compo);
 } */
 
+/* Resposnive */
+@media(max-width: 768px){
+.container-fluid { padding-right: 0.5rem; padding-left: 0.5rem; }
+}
 
 
 .fg1{flex-grow:1;}
