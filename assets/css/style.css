@@ -123,7 +123,9 @@ app-homepage .docs-homepage-row{color:rgba(0,0,0,.54)}
 footer a{display: flex;}
 footer .version{justify-content: flex-start;font-size:16px;}
 footer .version img{margin: 10px 0 10px 6px;}
-footer .rights{justify-content: center;}
+footer .rights{justify-content: center;width: 100%}
+footer .brand-text{margin: 0px 11px;}
+footer .version p{margin: 0px 11px;}
 
 }
 
