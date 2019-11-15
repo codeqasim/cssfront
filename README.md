@@ -1,13 +1,12 @@
 # CSSFront Components and Material Design without JS
-[![Build status](https://material.angular.io/assets/img/favicons/favicon-32x32.png)](#)
+[![Build status](https://material.angular.io/assets/img/favicons/favicon-32x32.png)](#) CSSFront Material Design
 
 
 This is the home for the CSSFront team's UI components built for and with Inspiration of Google Material Concept.
 These include Material Design components along with CSS and source files of project.
 
 #### Quick links
-[Documentation, demos, and guides][aio] |
-[Live Demo](https://qaxim.github.io/cssfront/) |
+[Live Demo](https://qaxim.github.io/cssfront/)
 
 
 ### Getting started
@@ -17,13 +16,6 @@ if you're building your first project with Angular Material.
 
 Check out our [Documents](https://github.com/angular/components/wiki/Design-doc-directory)
 for more insight into our process.
-
-If you'd like to contribute, you must follow our [contributing guidelines](https://github.com/angular/components/blob/master/CONTRIBUTING.md).
-You can look through the GitHub issues (which should be up-to-date on who is working on which features
-and which pieces are blocked) and make a comment.
-
-Please see our [`help wanted`](https://github.com/angular/components/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
-label for a list of issues where we could use help from the community.
 
 #### High level stuff planned for Q4 2019 (Oct  - Nov):
 * Remove dependency on HammerJS
@@ -86,70 +78,21 @@ MDC Web ([see @jelbourn's ng-conf talk](https://youtu.be/4EXQKP-Sihw?t=891)).
  [3]: https://material.angular.io/components/checkbox/overview
  [4]: https://material.angular.io/components/radio/overview
  [5]: https://material.angular.io/components/input/overview
- [6]: https://material.angular.io/components/sidenav/overview
- [7]: https://material.angular.io/components/toolbar/overview
- [8]: https://material.angular.io/components/list/overview
- [9]: https://material.angular.io/components/grid-list/overview
-[10]: https://material.angular.io/components/icon/overview
-[11]: https://material.angular.io/components/progress-spinner/overview
-[12]: https://material.angular.io/components/progress-bar/overview
-[13]: https://material.angular.io/components/tabs/overview
-[14]: https://material.angular.io/components/slide-toggle/overview
-[15]: https://material.angular.io/components/button-toggle/overview
-[16]: https://material.angular.io/components/slider/overview
-[17]: https://material.angular.io/components/menu/overview
-[18]: https://material.angular.io/components/tooltip/overview
-[19]: https://github.com/angular/components/blob/master/src/material/core/ripple/ripple.md
-[20]: https://material.angular.io/guide/theming
-[21]: https://material.angular.io/components/snack-bar/overview
-[22]: https://material.angular.io/components/dialog/overview
-[23]: https://material.angular.io/components/select/overview
-[24]: https://material.angular.io/components/autocomplete/overview
-[25]: https://material.angular.io/components/datepicker/overview
-[26]: https://material.angular.io/components/chips/overview
-[27]: https://material.angular.io/guide/typography
-[28]: https://material.angular.io/components/table/overview
-[29]: https://material.angular.io/components/paginator/overview
-[30]: https://material.angular.io/components/sort/overview
-
-[32]: https://material.angular.io/components/expansion/overview
-[33]: https://material.angular.io/components/stepper/overview
-[34]: https://material.angular.io/cdk/categories
-[35]: https://material.angular.io/components/divider/overview
-[36]: https://material.angular.io/components/tree/overview
-[37]: https://material.angular.io/components/badge/overview
-[38]: https://material.angular.io/components/bottom-sheet/overview
-[39]: https://material.angular.io/cdk/drag-drop/overview
-[40]: https://material.angular.io/cdk/scrolling/overview#virtual-scrolling
-
-[aio]: https://material.angular.io
-[getting-started]: https://material.angular.io/guide/getting-started
-[lay_rp]:  https://github.com/angular/flex-layout
-[cdk-layout]: https://material.angular.io/cdk/layout/overview
-
-
-## The goal of Angular Material and the CDK
-Our goal is to build a set of high-quality UI components built with Angular and TypeScript.
-These include foundational components and services, found in the CDK, and components that follow
-the Material Design spec. These components serve as an example of how to build Angular UI components
+ 
+## The goal of CSSFront Material 
+Our goal is to build a set of high-quality UI components built with CSSFront and Material Concept.
+These include foundational components and services, found in the SourceCode, and components that follow
+the Material Design spec. These components serve as an example of how to build Awesome UI components
 that follow best practices.
 
 ### What do we mean by "high-quality"?
 * Internationalized and accessible so that all users can use them.
-* Straightforward APIs that don't confuse developers.
 * Behave as expected across a wide variety of use-cases without bugs.
 * Behavior is well-tested with both unit and integration tests.
 * Customizable within the bounds of the Material Design specification.
 * Performance cost is minimized.
-* Code is clean and well-documented to serve as an example for Angular developers.
+* Code is clean and well-documented to serve as an example for developers.
 
 ## Browser and screen reader support
-Angular Material supports the most recent two versions of all major browsers:
+Material supports the most recent two versions of all major browsers:
 Chrome (including Android), Firefox, Safari (including iOS), and IE11 / Edge.
-
-We aim for great user experience with the following screen readers:
-* **Windows**: NVDA and JAWS with IE11 / FF / Chrome.
-* **macOS**: VoiceOver with Safari / Chrome.
-* **iOS**: VoiceOver with Safari
-* **Android**: Android Accessibility Suite (formerly TalkBack) with Chrome.
-* **Chrome OS**: ChromeVox with Chrome.
