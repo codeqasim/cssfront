@@ -1,7 +1,6 @@
-# CSSkit Components and Material Design without JS
-[![npm version](https://badge.fury.io/js/%40angular%2Fmaterial.svg)](https://www.npmjs.com/package/%40angular%2Fmaterial)
+# CSSFront Components and Material Design without JS
 [![Build status](https://circleci.com/gh/angular/components.svg?style=svg)](https://circleci.com/gh/angular/components)
-[![Gitter](https://badges.gitter.im/angular/components.svg)](https://gitter.im/angular/material2?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
 
 This is the home for the Angular team's UI components built for and with Angular.
 These include Material Design components and the Angular Component Development Kit (CDK).
@@ -9,8 +8,7 @@ These include Material Design components and the Angular Component Development K
 #### Quick links
 [Documentation, demos, and guides][aio] |
 [Google group](https://groups.google.com/forum/#!forum/angular-material2) |
-[Contributing](https://github.com/angular/components/blob/master/CONTRIBUTING.md) |
-[StackBlitz Template](https://stackblitz.com/fork/components-issue)
+
 
 ### Getting started
 
