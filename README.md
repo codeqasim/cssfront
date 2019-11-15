@@ -1,13 +1,13 @@
 # CSSFront Components and Material Design without JS
-[![Build status](https://circleci.com/gh/angular/components.svg?style=svg)](https://circleci.com/gh/angular/components)
+[![Build status](https://material.angular.io/assets/img/favicons/favicon-32x32.png)](#)
 
 
-This is the home for the Angular team's UI components built for and with Angular.
-These include Material Design components and the Angular Component Development Kit (CDK).
+This is the home for the CSSFront team's UI components built for and with Inspiration of Google Material Concept.
+These include Material Design components along with CSS and source files of project.
 
 #### Quick links
 [Documentation, demos, and guides][aio] |
-[Google group](https://groups.google.com/forum/#!forum/angular-material2) |
+[Live Demo](https://qaxim.github.io/cssfront/) |
 
 
 ### Getting started
@@ -15,7 +15,7 @@ These include Material Design components and the Angular Component Development K
 See our [Getting Started Guide][getting-started]
 if you're building your first project with Angular Material.
 
-Check out our [directory of design documents](https://github.com/angular/components/wiki/Design-doc-directory)
+Check out our [Documents](https://github.com/angular/components/wiki/Design-doc-directory)
 for more insight into our process.
 
 If you'd like to contribute, you must follow our [contributing guidelines](https://github.com/angular/components/blob/master/CONTRIBUTING.md).
