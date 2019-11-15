@@ -126,6 +126,25 @@ footer .version{justify-content: flex-start;font-size:16px;}
 footer .version img{margin: 10px 0 10px 6px;}
 footer .rights{justify-content: center;width: 100%}
 
+.navbar ul li:first-child{
+    opacity: 1;
+    position: relative;
+    left: 184%;
+    visibility: visible;
+    z-index: 9999999999999999;
+    top:-10rem;
+
+}
+.navbar ul li:first-child a{
+    border:none;
+    display: inline;
+    color: #fff;
+}
+
+.navbar {
+    overflow: visible;
+    opacity: 1;
+}
 
 }
 @media(max-width: 992px){
