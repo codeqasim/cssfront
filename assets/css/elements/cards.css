@@ -1,8 +1,16 @@
+
+.card{margin-bottom: 25px;min-height: 110px; background:#fff;display: inline-block; transition: box-shadow 280ms cubic-bezier(.4,0,.2,1); display: block; position: relative; padding: 16px; border-radius: 4px; box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12); } 
+.card h4 {font-size: 20px;margin-top: 0; display: block; margin-bottom: 8px;font-weight: 500; color: rgba(0,0,0,.87); }
+.card p {margin-bottom: 0px; color: rgba(0,0,0,.54);} 
 .cards{background:#e2e1e0;text-align:center}
-.card{background:#fff;border-radius:2px;display:inline-block;height:200px;margin:1rem;position:relative;width:200px}
-.card-1{box-shadow:0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);transition:all .3s cubic-bezier(.25,.8,.25,1)}
-.card-1:hover{box-shadow:0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22)}
-.card-2{box-shadow:0 3px 6px rgba(0,0,0,0.16),0 3px 6px rgba(0,0,0,0.23)}
-.card-3{box-shadow:0 10px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23)}
-.card-4{box-shadow:0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22)}
-.card-5{box-shadow:0 19px 38px rgba(0,0,0,0.30),0 15px 12px rgba(0,0,0,0.22)}
+
+.cards{background:#fff;border-radius:2px;display:inline-block;height:200px;margin:1rem;position:relative;width:200px}
+.cards-1{box-shadow:0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);transition:all .3s cubic-bezier(.25,.8,.25,1)}
+.cards-1:hover{box-shadow:0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22)}
+.cards-2{box-shadow:0 3px 6px rgba(0,0,0,0.16),0 3px 6px rgba(0,0,0,0.23)}
+.cards-3{box-shadow:0 10px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23)}
+.cards-4{box-shadow:0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22)}
+.cards-5{box-shadow:0 19px 38px rgba(0,0,0,0.30),0 15px 12px rgba(0,0,0,0.22)}
+
+
+

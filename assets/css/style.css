@@ -58,7 +58,6 @@ footer a { color: #fff; }
 .hero h1 { font-size: 56px; font-weight: 300; line-height: 56px; margin: 15px 5px; }
 .hero h2 { font-size: 18px; font-weight: 300; line-height: 28px; margin: 15px 0 25px; }
 
-
 .home .body { align-items: center; display: flex; flex-direction: column; padding: 16px; }
 .home .body .content{ display: flex; max-width: 920px; margin: 60px 0; }
 
@@ -168,6 +167,61 @@ SVG Icons - svgicons.sparkk.fr
 
 .wrapper { display: flex; justify-content: space-between; } 
 .layout, .sidebar { padding: 15px; } 
-.layout { width: 75%; } 
-.sidebar { width: 25%; height: 25vh; } 
-.sidebar { position: -webkit-sticky; position: sticky; top: 0; }
+.layout {  } 
+.sidebar { height: 25vh; } 
+.sidebar { position: -webkit-sticky; position: sticky; top: 56px; }
+
+
+
+.box, .box-first, .box-large, .box-nested, .box-row {
+    position: relative;
+    box-sizing: border-box;
+    min-height: 1rem;
+    margin-bottom: 0;
+    background: #3f51b5;
+    border: 1px solid #FFF;
+    border-radius: 2px;
+    overflow: hidden;
+    text-align: center;
+    color: #fff;
+}
+
+@media only screen and (min-width: 48rem) {
+.box, .box-first, .box-large, .box-nested, .box-row {
+    padding: 1rem;
+} }
+
+.box-row {
+    margin-bottom: 1rem;
+}
+
+.box-nested {
+    background: #036;
+    border-color: #007FFF;
+}
+
+.box-first {
+    background: #06C;
+    border-color: #007FFF;
+}
+
+pre {
+    overflow-x: auto;
+    padding: 1.25em;
+    border: 1px solid #e6e6e6;
+    border-left-width: 5px;
+    margin: 1.6em 0;
+    font-size: .875em;
+    background: #ffffff;
+    white-space: pre;
+    word-wrap: normal;
+}
+
+code {
+    color: #007FFF;
+}
+
+code, kbd, pre, samp {
+    font-family: monospace,serif;
+    font-size: 1em;
+}
