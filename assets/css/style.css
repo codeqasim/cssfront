@@ -119,6 +119,12 @@ app-homepage .docs-homepage-row{color:rgba(0,0,0,.54)}
 .container-fluid { padding-right: 0.5rem; padding-left: 0.5rem; }
 .home h2 { font-size: 16px !important; margin: 0 0 4px !important; }
 .home p { font-size: 13px !important; font-weight: 400; line-height: 16px !important; margin: 0 0 23px; padding: 0; }
+.footer .contents{flex-flow: nowrap;}
+footer a{display: flex;}
+footer .version{justify-content: flex-start;font-size:16px;}
+footer .version img{margin: 10px 0 10px 6px;}
+footer .rights{justify-content: center;}
+
 }
 
 
