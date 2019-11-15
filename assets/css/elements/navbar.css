@@ -11,9 +11,10 @@
 .navbar a{white-space:nowrap}
 .navbar ul li{display:inline-block}
 .navbar ul li.menu:hover>a:before,.navbar ul li.menu:hover>a:after{bottom:-20px;opacity:0}
-.navbar ul ul,.navbar ul .menu-wrapper{position:absolute;visibility:hidden;z-index:1;height:auto;left:3px;top:100%;margin:0;padding:0;background:#fff;opacity:0;display:table}
-.navbar ul li:hover>ul,.navbar ul li:hover>.menu-wrapper{-webkit-transition:opacity .3s,padding .3s;-moz-transition:opacity .3s,padding .3s;transition:opacity .3s,padding .3s;visibility:visible;padding:0;opacity:1;-webkit-box-shadow:rgba(0,0,0,.37) 0 50px 100px,rgba(0,0,0,.22) 0 5px 50px;box-shadow:rgba(0,0,0,.37) 0 50px 100px,rgba(0,0,0,.22) 0 5px 50px}
-.navbar ul ul li{display:block;overflow:hidden;height:auto;padding:10px;-webkit-transition:padding .3s;-moz-transition:padding .3s;transition:padding .3s}
+.navbar ul ul { -webkit-transition: all 0.1s ease-out; -moz-transition: all 0.1s ease-out; -o-transition: all 0.1s ease-out; transition: all 0.1s ease-out; }
+.navbar ul ul,.navbar ul .menu-wrapper{ position:absolute;visibility:hidden;z-index:1;height:auto;left:3px;top:100%;margin:0;padding:0;background:#fff;opacity:0;display:table}
+.navbar ul li:hover>ul,.navbar ul li:hover>.menu-wrapper{-webkit-transition:opacity .3s,padding .3s;-moz-transition:opacity .3s,padding .3s;transition:opacity .3s,padding .3s;visibility:visible;padding:0;opacity:1; box-shadow: 0 2px 4px -1px rgba(0,0,0,.2), 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12);}
+.navbar ul ul li{display:block;overflow:hidden;height:auto;padding:10px;-webkit-transition:padding .3s;-moz-transition:padding .3s;transition:padding .3s; }
 .navbar ul ul li a{font-size:14px;color:#666;border:1px solid transparent}
 .navbar ul ul li:hover>a,.navbar ul ul li.current>a{border-style:solid;border-width:1px;width:100%;text-align:left;border:1px solid #dcdcdc}
 .navbar ul li:hover ul li{overflow:visible;padding:0}
