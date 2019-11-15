@@ -11,7 +11,7 @@ class InputField extends React.Component {
     if (message !== '') {
       this.props.handleNewMessage(message, 'out');
       setTimeout(() => {
-        this.props.handleNewMessage('Hello there!', 'in');
+        this.props.handleNewMessage('No Charlie Do Not Do this!', 'in');
       }, 1500);
       e.target.reset();
     }
