@@ -1,5 +1,1 @@
-    function includeHTML(){var z,i,elmnt,file,xhttp;z=document.getElementsByTagName("*");for(i=0;i<z.length;i++){elmnt=z[i];file=elmnt.getAttribute("include");if(file){xhttp=new XMLHttpRequest();xhttp.onreadystatechange=function(){if(this.readyState==4){if(this.status==200){elmnt.innerHTML=this.responseText}
-    if(this.status==404){elmnt.innerHTML="Page not found."}
-    elmnt.removeAttribute("include");includeHTML()}}
-    xhttp.open("GET",file,!0);xhttp.send();return}}}
-    includeHTML()
+window.onload=function(){function a(a,b){var c=/^(?:file):/,d=new XMLHttpRequest,e=0;d.onreadystatechange=function(){4==d.readyState&&(e=d.status),c.test(location.href)&&d.responseText&&(e=200),4==d.readyState&&200==e&&(a.outerHTML=d.responseText)};try{d.open("GET",b,!0),d.send()}catch(f){}}var b,c=document.getElementsByTagName("*");for(b in c)c[b].hasAttribute&&c[b].hasAttribute("include")&&a(c[b],c[b].getAttribute("include"))};
