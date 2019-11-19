@@ -100,6 +100,7 @@ Router.prototype = {
         var router = new Router([
             new Route('home', 'home.html', true),            
             new Route('about', 'about.html'),
+            new Route('form-checkbox', 'form-checkbox.html'),
             new Route('layout', 'layout.html'),
             new Route('layout-grid', 'layout-grid.html')
         ]);
