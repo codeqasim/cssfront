@@ -24,6 +24,10 @@ or -> Orange
 @import url("elements/progress.css");
 @import url("elements/accordion.css");
 @import url("elements/tabs.css");
+@import url("elements/checkbox.css");
+
+::selection{color:#ff2d54;background:#dfeaf7}
+::-moz-selection{color:#ff2d54;background:#dfeaf7}
 
 :root {  
   --compo: left;  
@@ -115,6 +119,24 @@ app-homepage .docs-homepage-row{color:rgba(0,0,0,.54)}
 .docs-homepage-promo-desc[_ngcontent-hqo-c498]{line-height:2;display:flex;flex-direction:column;justify-content:center}
 @media(max-width:720px){.docs-homepage-bottom-start[_ngcontent-hqo-c498],.docs-homepage-row[_ngcontent-hqo-c498]{margin:15px 0}
 }
+
+
+.panel { margin-bottom: 25px; border: 1px solid #E1E1E1; border-bottom: 0; background-color: #fff; border-radius: 0; -webkit-box-shadow: none; box-shadow: none; }
+.panel .head { color: #333;display: block; line-height: 1; padding: 22px 25px 18px; font-weight: 700;     background-color: #f7f7f7; border-bottom: 1px solid #e1e1e1; }
+.panel .body { padding: 20px; border-bottom: 1px solid #E1E1E1; }
+.panel p { margin:0px; }
+
+.example{padding:25px;-webkit-animation-duration:.4s;animation-duration:.4s;-webkit-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-name:slideUp;animation-name:slideUp;-webkit-animation-timing-function:cubic-bezier(0.4,0,0.2,1);animation-timing-function:cubic-bezier(0.4,0,0.2,1)}
+@-webkit-keyframes slideUp{0%{-webkit-transform:translateY(6.25rem);transform:translateY(6.25rem)}
+100%{-webkit-transform:translateY(0);transform:translateY(0)}
+}@keyframes slideUp{0%{-webkit-transform:translateY(6.25rem);transform:translateY(6.25rem)}
+100%{-webkit-transform:translateY(0);transform:translateY(0)}
+}
+
+
+
+
+
 
 
 #compo{content: ;}
