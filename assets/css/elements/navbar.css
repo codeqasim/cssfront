@@ -40,6 +40,8 @@ label.navbar-button{display:inline-block;width:56px;height:54px;text-transform:u
 label.navbar-button:before{position:absolute;content:'';width:28px;height:5px;left:14px;bottom:15px;border-top:10px double #fff;border-bottom:3px solid #fff;z-index:1}
 .navbar{overflow:auto;left:-100%;top:0;width:55%;height:100%;opacity:0;-webkit-transition:left .3s,opacity .5s;-moz-transition:left .3s,opacity .5s;transition:left .3s,opacity .5s}
 #mobile-nav:checked+.navbar{visibility:visible;left:0;opacity:1;display:block}
+#mobile-nav:checked+.navbar:before{background: -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; content: ""; position: fixed; top: 0; left: 0; z-index: 1; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.71);
+    }
 .navbar h3,.navbar ul li a{border-top:1px solid transparent;border-bottom:1px solid rgba(100%,100%,100%,0.2);color:#000;display:block;text-align:left}
 .navbar h3{font-size:18px;line-height:1em;margin:0;padding:20px 0 20px 40px;color:#fff;background:rgba(100%,100%,100%,0.10)}
 .navbar ul{margin:0;padding:0}
