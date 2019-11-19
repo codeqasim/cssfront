@@ -16,6 +16,7 @@ or -> Orange
 */
 
 @import url("flexbox.css");
+@import url("elements/input.css");
 @import url("elements/navbar.css");
 @import url("elements/sidebar.css");
 @import url("elements/cards.css");
@@ -34,7 +35,7 @@ or -> Orange
 }
 
 *{text-decoration:none;  box-sizing: border-box;}
-body { text-rendering: optimizeLegibility; font-display: swap; padding-top: 56px;margin: 0px; font-family: Roboto,"Helvetica Neue",sans-serif; font-size: 14px; background: rgb(250, 250, 250);}
+body { text-rendering: optimizeLegibility; padding-top: 56px;margin: 0px; font-family: Roboto,"Helvetica Neue",sans-serif; font-size: 14px; background: rgb(250, 250, 250);}
 ul{margin:0px;padding:0px;list-style:none}
 
 header nav img { vertical-align: middle; }
