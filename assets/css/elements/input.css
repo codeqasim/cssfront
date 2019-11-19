@@ -1,39 +1,38 @@
-input {
+.group .control { margin-bottom: 15px }
+
+.control {
   width: 100%;
   display: block;
-  border: none;
-  padding: 18px 14px;
+  padding: 18px 12px;
   border: solid 1px #919191;
-  background-position: -200px 0;
-  background-size: 200px 100%;
-  background-repeat: no-repeat;
-  color: #0e6252;
+  color: #000;
   border-radius: 3px;
   font-weight: 400;
-  height: 60px;
+  min-height: 60px;
   font-size: 16px;
-
-
 }
 
-input:hover{border: solid 1px #000;background: #fcfcfc;}
+.control:hover{border: solid 1px #000;background: #fcfcfc;}
 
-input:focus, input:valid {
+.control:focus,.control:valid {
  box-shadow: none;
  outline: none;
  background-position: 0 0;
- border: solid 2px #6200ee;
-   border-radius: 5px;
-     background: #fcfcfc;
+ border: solid 2px var(--input-br);
+ background: #eaf0ff;
+ background: var(--input-bg);
+ -webkit-transition: all 0.1s ease-in-out;
+ transition: all 0.1s ease-in-out;
+ padding: 18px 12px;
 }
 
 
-input::-webkit-input-placeholder {
+.control::-webkit-input-placeholder {
  -webkit-transition: all 0.1s ease-in-out;
  transition: all 0.1s ease-in-out;
 }
 
-input:focus::-webkit-input-placeholder, input:valid::-webkit-input-placeholder {
+.control:focus::-webkit-input-placeholder, .control:valid::-webkit-input-placeholder {
  color: #6200ee;
  font-size: 10px;
  -webkit-transform: translateY(-20px);
@@ -42,11 +41,3 @@ input:focus::-webkit-input-placeholder, input:valid::-webkit-input-placeholder {
 }
 
 
-/* Applying style *just* to placeholder */
-input::placeholder { color: blue; }
-
-/* Applying style to input when placeholder is shown */
-input:placeholder-shown { color: yellow; }
-
-/* Applying style to input but *not* placeholder */
-input:not(:placeholder-shown) { color: green; }
