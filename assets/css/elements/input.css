@@ -1,43 +1,25 @@
-.group .control { margin-bottom: 15px }
+.group [control],.group textarea,.group select{margin-bottom:15px}
 
-.control {
-  width: 100%;
-  display: block;
-  padding: 18px 12px;
-  border: solid 1px #919191;
-  color: #000;
-  border-radius: 3px;
-  font-weight: 400;
-  min-height: 60px;
-  font-size: 16px;
+[control]{width:100%;display:block;padding:18px 12px;border:solid 1px #919191;color:#000;border-radius:3px;font-weight:400;min-height:60px;font-size:16px}
+
+[control]::-webkit-input-placeholder{-webkit-transition:all .1s ease-in-out;transition:all .1s ease-in-out}
+[control]:hover{border:solid 1px #000;background:#fcfcfc}
+[control]:focus,input[type=text]:valid{box-shadow:none;outline:0;background-position:0 0;border:solid 2px var(--input-br);background:#eaf0ff;background:var(--input-bg);-webkit-transition:all .1s ease-in-out;transition:all .1s ease-in-out;padding:18px 12px}
+[control]:focus::-webkit-input-placeholder,input[type=text]:valid::-webkit-input-placeholder{color:#6200ee;font-size:10px;-webkit-transform:translateY(-20px);transform:translateY(-20px);visibility:visible!important}
+
+
+select::-webkit-input-placeholder{-webkit-transition:all .1s ease-in-out;transition:all .1s ease-in-out}
+select:hover{border:solid 1px #000;background:#fcfcfc}
+
+
+select:valid {
+  border: 2px solid green;
+  outline: none;
+}
+select {
+  border: 2px solid blue;
+  outline: none;
 }
 
-.control:hover{border: solid 1px #000;background: #fcfcfc;}
-
-.control:focus,.control:valid {
- box-shadow: none;
- outline: none;
- background-position: 0 0;
- border: solid 2px var(--input-br);
- background: #eaf0ff;
- background: var(--input-bg);
- -webkit-transition: all 0.1s ease-in-out;
- transition: all 0.1s ease-in-out;
- padding: 18px 12px;
-}
-
-
-.control::-webkit-input-placeholder {
- -webkit-transition: all 0.1s ease-in-out;
- transition: all 0.1s ease-in-out;
-}
-
-.control:focus::-webkit-input-placeholder, .control:valid::-webkit-input-placeholder {
- color: #6200ee;
- font-size: 10px;
- -webkit-transform: translateY(-20px);
- transform: translateY(-20px);
- visibility: visible !important;
-}
 
 

@@ -136,6 +136,7 @@ app-homepage .docs-homepage-row{color:rgba(0,0,0,.54)}
 100%{-webkit-transform:translateY(0);transform:translateY(0)}
 }
 
+.example .group [info]{background: #393939; color: #fff; padding: 6px 14px; font-size: 12px; border-radius: 3px; border: 1px solid #000; position: relative; display: table; margin-bottom: 6px;}
 
 #compo{content: ;}
 
