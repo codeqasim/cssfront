@@ -99,7 +99,9 @@ Router.prototype = {
     function init() {
         var router = new Router([
             new Route('home', 'home.html', true),            
-            new Route('about', 'about.html')
+            new Route('about', 'about.html'),
+            new Route('layout', 'layout.html'),
+            new Route('layout-grid', 'layout-grid.html')
         ]);
     }
     init();
