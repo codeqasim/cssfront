@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<base href="" />
 <meta name="description" content="CSSFront Pure CSS Based Frontend Framework Inspired by Google Material">
 <meta name="keywords" content="cssfront, css material, pure css material, material components download">
 <title>CSSFront Material Inspired by Google Material Concept</title>
@@ -8,17 +9,17 @@
 <link rel="stylesheet" href="assets/css/style.css" />
 </head>   
 <body class="documentation m0" style="overflow:hidden">
-   <div include="header.html"></div>
-    <div class="flex" style="">
-        <div id="split-left" class="overflow-auto fs0 height-viewport-100" style="flex-basis: calc(16.8377% - 10px);">
-        <div include="views/sidebar.html"></div>
-        </div>
-        <!--<div class="gutter gutter-horizontal" style="flex-basis: 20px;"></div>-->
-        <div id="split-right" class="relative overflow-auto height-viewport-100" style="flex-basis: calc(83.1623% - 10px);">
-         <div id="app"></div>
-         <div include="footer.html"></div>
-        </div>
-    </div>
+<div include="views/body-header.html"></div>
+<div class="flex" style="">
+<div id="split-left" class="overflow-auto fs0 height-viewport-100" style="flex-basis: calc(20%);">
+<div include="views/sidebar.html"></div>
+</div>
+<!--<div class="gutter gutter-horizontal" style="flex-basis: 20px;"></div>-->
+<div id="split-right" class="relative overflow-auto height-viewport-100" style="flex-basis: calc(80%);">
+<div id="app"></div>
+<div include="views/body-footer.html"></div>
+</div>
+</div>
 <script src="assets/js/app.js"></script>
 </body>
 </html>

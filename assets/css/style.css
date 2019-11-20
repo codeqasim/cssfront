@@ -13,6 +13,8 @@ rd -> Red
 yl -> Yellow
 or -> Orange 
 
+#f1f1f1
+
 */
 
 @import url("flexbox.css");
@@ -21,7 +23,7 @@ or -> Orange
 @import url("elements/sidebar.css");
 @import url("elements/cards.css");
 @import url("elements/loader.css");
-@import url("elements/button.css");
+@import url("elements/buttons.css");
 @import url("elements/progress.css");
 @import url("elements/accordion.css");
 @import url("elements/tabs.css");
@@ -59,9 +61,8 @@ footer .version p { margin: 0 40px; }
 footer a { color: #fff; }
 
 .overflow-auto{overflow:auto}
-.clearfix:before,.clearfix:after{content:" ";display:table}
+.clearfix:before,.clearfix:after{content:"";display:table}
 .clearfix:after{clear:both}
-
 
 .flex{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex}
 .fs0{flex-shrink:0}
@@ -123,7 +124,6 @@ app-homepage .docs-homepage-row{color:rgba(0,0,0,.54)}
 @media(max-width:720px){.docs-homepage-bottom-start[_ngcontent-hqo-c498],.docs-homepage-row[_ngcontent-hqo-c498]{margin:15px 0}
 }
 
-
 .panel { margin-bottom: 25px; border: 1px solid #E1E1E1; border-bottom: 0; background-color: #fff; border-radius: 0; -webkit-box-shadow: none; box-shadow: none; }
 .panel .head { color: #333;display: block; line-height: 1; padding: 22px 25px 18px; font-weight: 700;     background-color: #f7f7f7; border-bottom: 1px solid #e1e1e1; }
 .panel .body { padding: 20px; border-bottom: 1px solid #E1E1E1; }
@@ -137,17 +137,6 @@ app-homepage .docs-homepage-row{color:rgba(0,0,0,.54)}
 }
 
 .example .group [info]{background: #393939; color: #fff; padding: 6px 14px; font-size: 12px; border-radius: 3px; border: 1px solid #000; position: relative; display: table; margin-bottom: 6px;}
-
-#compo{content: ;}
-
-/*.head h1 {
-  text-indent:-9999px;
-}
-.head h1:before {
-  text-indent:0;
-  content:"compo";
-  float:var(--compo);
-} */
 
 /* Resposnive */
 @media(max-width: 768px){
@@ -164,8 +153,8 @@ footer a{display: flex;}
 footer .version img{margin: 10px 0 10px 6px;}
 footer .rights{justify-content: center;width: 100%}
 footer .rights{justify-content: center;width: 100%} 
-
 }
+
 @media(max-width: 992px){
 footer .brand-text{margin: 0px 11px;}
 footer .version p{margin: 0px 11px;} 
@@ -234,3 +223,5 @@ SVG Icons - svgicons.sparkk.fr
 @media only screen and (min-width:48rem){.box,.box-first,.box-large,.box-nested,.box-row{padding:1rem}.box-row{margin-bottom:1rem}}
 .box-nested{background:#036;border-color:#007FFF}
 .box-first{background:#06C;border-color:#007FFF}pre{overflow-x:auto;padding:1.25em;border:1px solid #e6e6e6;border-left-width:5px;margin:1.6em 0;font-size:.875em;background:#fff;white-space:pre;word-wrap:normal}code{color:#007FFF}code,kbd,pre,samp{font-family:monospace,serif;font-size:1em}
+
+.group [control],.group textarea,.group select{margin-bottom:15px}
