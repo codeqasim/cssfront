@@ -101,7 +101,7 @@ Router.prototype = {
             new Route('home', 'home.html', true),            
             new Route('about', 'about.html'),
             new Route('components', 'components.html'),
-            
+
             /* form */ 
             new Route('form-input', 'form/input.html'),
             new Route('form-buttons', 'form/buttons.html'),
@@ -111,9 +111,12 @@ Router.prototype = {
             new Route('layout', 'layout/index.html'),
             new Route('layout-grid', 'layout/grid.html'),
             new Route('layout-cards', 'layout/cards.html'),
+            new Route('layout-tabs', 'layout/tabs.html'),
+            new Route('layout-accordion', 'layout/accordion.html'),
             
             /* indicators */
-            new Route('indicators-progress', 'indicators/progress.html')
+            new Route('indicators-progress', 'indicators/progress.html'),
+            new Route('indicators-loader', 'indicators/loader.html')
         ]);
     }
     init();
