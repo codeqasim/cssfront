@@ -43,7 +43,6 @@ templateUrl: './views/about.html',
 
 when('/controls', {
 templateUrl: './views/form/controls.html',
-templateUrl: './views/form/controls.html',
  data: {
       meta: {
         'title': 'Controls',
@@ -51,6 +50,67 @@ templateUrl: './views/form/controls.html',
       }
     }
 }).
+
+when('/layout-grid', {
+templateUrl: './views/layout/grid.html',
+ data: {
+      meta: {
+        'title': 'Layout Grid',
+        'description': ''
+      }
+    }
+}).
+
+when('/layout-cards', {
+templateUrl: './views/layout/cards.html',
+ data: {
+      meta: {
+        'title': 'Layout Cards',
+        'description': ''
+      }
+    }
+}).
+
+when('/layout-tabs', {
+templateUrl: './views/layout/tabs.html',
+ data: {
+      meta: {
+        'title': 'Layout Tabs',
+        'description': ''
+      }
+    }
+}).
+
+when('/layout-accordion', {
+templateUrl: './views/layout/accordion.html',
+ data: {
+      meta: {
+        'title': 'Layout Accordion',
+        'description': ''
+      }
+    }
+}).
+
+when('/indicators-progress', {
+templateUrl: './views/indicators/progress.html',
+ data: {
+      meta: {
+        'title': 'Indicators Progress',
+        'description': ''
+      }
+    }
+}).
+
+when('/indicators-loader', {
+templateUrl: './views/indicators/loader.html',
+ data: {
+      meta: {
+        'title': 'Indicators Loader',
+        'description': ''
+      }
+    }
+}).
+
 
 otherwise({
 redirectTo: '/home'
