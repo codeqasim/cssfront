@@ -16,13 +16,14 @@
 </head>
 
 <body class="documentation m0" style="overflow:hidden">
-<div ng-include="'views/header.html'"></div>
+
 <div class="flex" style="">
 <div id="split-left" class="overflow-auto fs0 height-viewport-100" style="flex-basis: calc(20%);">
 <div ng-include="'views/sidebar.html'"></div>
 </div>
 <!--<div class="gutter gutter-horizontal" style="flex-basis: 20px;"></div>-->
 <div id="split-right" class="relative overflow-auto height-viewport-100" style="flex-basis: calc(80%);">
+<div ng-include="'views/header.html'"></div> 
 <div ng-view></div>
 <div ng-include="'views/footer.html'"></div>
 </div>
