@@ -44,6 +44,16 @@ templateUrl: './views/about.html',
     }
 }).
 
+when('/buttons', {
+templateUrl: './views/form/buttons.html',
+ data: {
+      meta: {
+        'title': 'Buttons',
+        'description': 'Contact us today'
+      }
+    }
+}).
+
 otherwise({
 redirectTo: '/home'
 });
