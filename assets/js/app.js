@@ -38,7 +38,7 @@ when('/about', {
 templateUrl: './views/about.html',
  data: {
       meta: {
-        'title': 'Contact',
+        'title': 'About',
         'description': 'Contact us today'
       }
     }
@@ -55,12 +55,12 @@ $locationProvider.html5Mode(true);
     ngMeta.init();
 }])
 
-// .directive('headdrop', function() {
-//     return {
-//         restrict: 'E',
-// templateUrl: './themes/default/partials/headdrop.html',
-//     };
-// });
+.directive('headdrop', function() {
+    return {
+        restrict: 'E',
+templateUrl: './themes/default/partials/headdrop.html',
+    };
+});
 
 
 app.controller('Home', ['$http','$scope',function ($http,$scope) {
