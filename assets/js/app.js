@@ -1,126 +1,88 @@
-/* route */
+var app = angular.module('app', ['ngRoute','ngMeta']);
 
-'use stict';
+app.config(['$locationProvider', '$routeProvider','ngMetaProvider', function ($locationProvider, $routeProvider,ngMetaProvider) {
 
-function Route(name, htmlName, defaultRoute) {
-    try {
-        if(!name || !htmlName) {
-            throw 'error: name and htmlName params are mandatories';
-        }
-        this.constructor(name, htmlName, defaultRoute);
-    } catch (e) {
-        console.error(e);
+
+
+
+$routeProvider.
+
+when('/home', {
+templateUrl: './views/home.html',
+ data: {
+      meta: {
+        'title': 'Booknow - Flights - Hotels - Cars and Tours ',
+        'description': 'Book now is the best source for your online travel booking business. we offer last minute travel services such as flights hotels rooms tours and cars rental or transfer '
+      }
     }
-}
-
-Route.prototype = {
-    name: undefined,
-    htmlName: undefined,
-    default: undefined,
-    constructor: function (name, htmlName, defaultRoute) {
-        this.name = name;
-        this.htmlName = htmlName;
-        this.default = defaultRoute;
-    },
-    isActiveRoute: function (hashedPath) {
-        return hashedPath.replace('#', '') === this.name; 
+}).
+when('/hotels', {
+templateUrl: './themes/default/hotels.html',
+ data: {
+      meta: {
+        'title': 'Booknow - Hotels',
+        'description': 'Find last minute and cheap hotels'
+      }
     }
-};
-
-
-
-/* router */
-'use strict';
-
-function Router(routes) {
-    try {
-        if (!routes) {
-            throw 'error: routes param is mandatory';
-        }
-        this.constructor(routes);
-        this.init();
-    } catch (e) {
-        console.error(e);   
+}).
+when('/contact', {
+templateUrl: './views/contact.html',
+ data: {
+      meta: {
+        'title': 'Contact',
+        'description': 'Contact us today'
+      }
     }
-}
-
-Router.prototype = {
-    routes: undefined,
-    rootElem: undefined,
-    constructor: function (routes) {
-        this.routes = routes;
-        this.rootElem = document.getElementById('app');
-    },
-    init: function () {
-        var r = this.routes;
-        (function(scope, r) { 
-            window.addEventListener('hashchange', function (e) {
-                scope.hasChanged(scope, r);
-            });
-        })(this, r);
-        this.hasChanged(this, r);
-    },
-    hasChanged: function(scope, r){
-        if (window.location.hash.length > 0) {
-            for (var i = 0, length = r.length; i < length; i++) {
-                var route = r[i];
-                if(route.isActiveRoute(window.location.hash.substr(1))) {
-                    scope.goToRoute(route.htmlName);
-                }
-            }
-        } else {
-            for (var i = 0, length = r.length; i < length; i++) {
-                var route = r[i];
-                if(route.default) {
-                    scope.goToRoute(route.htmlName);
-                }
-            }
-        }
-    },
-    goToRoute: function (htmlName) {
-        (function(scope) { 
-            var url = 'views/' + htmlName,
-                xhttp = new XMLHttpRequest();
-            xhttp.onreadystatechange = function () {
-                if (this.readyState === 4 && this.status === 200) {
-                    scope.rootElem.innerHTML = this.responseText;
-                }
-            };
-            xhttp.open('GET', url, true);
-            xhttp.send();
-        })(this);
+}).
+when('/about', {
+templateUrl: './views/about.html',
+ data: {
+      meta: {
+        'title': 'Contact',
+        'description': 'Contact us today'
+      }
     }
-};
+}).
+
+otherwise({
+redirectTo: '/home'
+});
+
+$locationProvider.html5Mode(true);
+}])
+
+.run(['ngMeta', function(ngMeta) {
+    ngMeta.init();
+}])
+
+// .directive('headdrop', function() {
+//     return {
+//         restrict: 'E',
+// templateUrl: './themes/default/partials/headdrop.html',
+//     };
+// });
 
 
-'use strict';
+app.controller('Home', ['$http','$scope',function ($http,$scope) {
 
-(function () {
-    function init() {
-        var router = new Router([
-            new Route('home', 'home.html', true),            
-            new Route('about', 'about.html'),
-            new Route('components', 'components.html'),
+     $http({
+     method: 'GET',
+     url: 'https://www.phptravels.net/public/expedia/api/expedia/list?appKey=phptravels',
+     data: $.param({ }),
+     headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
+     }).then(
+     function(res) {
 
-            /* form */ 
-            new Route('form-input', 'form/input.html'),
-            new Route('form-buttons', 'form/buttons.html'),
-            new Route('form-checkbox', 'form/checkbox.html'),
+     $scope.items = res.data.HotelListResponse.HotelList.HotelSummary
+     console.log('succes !',  res.data.HotelListResponse.HotelList.HotelSummary);
+     },
+     function(err) {
+     console.log('error...', err);
+     }
+ );
 
-            /* layout */
-            new Route('layout', 'layout/index.html'),
-            new Route('layout-grid', 'layout/grid.html'),
-            new Route('layout-cards', 'layout/cards.html'),
-            new Route('layout-tabs', 'layout/tabs.html'),
-            new Route('layout-accordion', 'layout/accordion.html'),
-            
-            /* indicators */
-            new Route('indicators-progress', 'indicators/progress.html'),
-            new Route('indicators-loader', 'indicators/loader.html')
-        ]);
-    }
-    init();
-}());
+}]);
 
 
-window.onload=function(){function a(a,b){var c=/^(?:file):/,d=new XMLHttpRequest,e=0;d.onreadystatechange=function(){4==d.readyState&&(e=d.status),c.test(location.href)&&d.responseText&&(e=200),4==d.readyState&&200==e&&(a.outerHTML=d.responseText)};try{d.open("GET",b,!0),d.send()}catch(f){}}var b,c=document.getElementsByTagName("*");for(b in c)c[b].hasAttribute&&c[b].hasAttribute("include")&&a(c[b],c[b].getAttribute("include"))};
+
+
