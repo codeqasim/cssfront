@@ -44,12 +44,23 @@ templateUrl: './views/about.html',
     }
 }).
 
-when('form/buttons', {
-templateUrl: './views/form/buttons.html',
+when('/controls', {
+templateUrl: './views/form/controls.html',
+templateUrl: './views/form/controls.html',
  data: {
       meta: {
-        'title': 'Buttons',
-        'description': 'Contact us today'
+        'title': 'Controls',
+        'description': ''
+      }
+    }
+}).
+
+when('/checkbox', {
+templateUrl: './views/form/checkbox.html',
+ data: {
+      meta: {
+        'title': 'Checkbox',
+        'description': ''
       }
     }
 }).

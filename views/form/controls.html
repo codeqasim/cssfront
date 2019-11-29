@@ -1,0 +1,263 @@
+<section class="headsec">
+<h1 ng-bind="ngMeta.title"></h1>
+</section>
+
+<div class="example">
+<div class="panel">
+<div class="head">Example</div>
+<div class="body">
+<div class="group">
+
+<main class="grid">
+    <div></div>
+    <div class="column">Enabled</div>
+    <div class="column">Disabled</div>
+
+    <a class="title" href="#" target="">Button - Contained</a>
+    <div><button class="pure-material-button-contained">Contained</button></div>
+    <div><button class="pure-material-button-contained" disabled>Contained</button></div>
+
+    <a class="title" href="#" target="">Button - Outlined</a>
+    <div><button class="pure-material-button-outlined">Outlined</button></div>
+    <div><button class="pure-material-button-outlined" disabled>Outlined</button></div>
+
+    <a class="title" href="#" target="">Button - Text</a>
+    <div><button class="pure-material-button-text">Text</button></div>
+    <div><button class="pure-material-button-text" disabled>Text</button></div>
+
+    <a class="title" href="#" target="">Checkbox</a>
+    <div class="checkboxes">
+        <label class="pure-material-checkbox">
+            <input type="checkbox">
+            <span>Unchecked</span>
+        </label>
+        <label class="pure-material-checkbox">
+            <input type="checkbox" checked>
+            <span>Checked</span>
+        </label>
+        <label class="pure-material-checkbox">
+            <input type="checkbox">
+            <span>Indeterminate</span>
+        </label>
+    </div>
+    <div class="checkboxes">
+        <label class="pure-material-checkbox">
+            <input type="checkbox" disabled>
+            <span>Unchecked</span>
+        </label>
+        <label class="pure-material-checkbox">
+            <input type="checkbox" checked disabled>
+            <span>Checked</span>
+        </label>
+        <label class="pure-material-checkbox">
+            <input type="checkbox" disabled>
+            <span>Indeterminate</span>
+        </label>
+    </div>
+
+    <a class="title" href="#" target="">Radio Buttons</a>
+    <div class="radios">
+        <label class="pure-material-radio">
+            <input type="radio" name="group-enabled">
+            <span>Unchecked</span>
+        </label>
+        <label class="pure-material-radio">
+            <input type="radio" name="group-enabled" checked>
+            <span>Checked</span>
+        </label>
+    </div>
+    <div class="radios">
+        <label class="pure-material-radio">
+            <input type="radio" name="group-disabled" disabled>
+            <span>Unchecked</span>
+        </label>
+        <label class="pure-material-radio">
+            <input type="radio" name="group-disabled" checked disabled>
+            <span>Checked</span>
+        </label>
+    </div>
+
+    <a class="title" href="#" target="">Switch</a>
+    <div class="switches">
+        <label class="pure-material-switch">
+            <input type="checkbox">
+            <span>Off</span>
+        </label>
+        <br/>
+        <label class="pure-material-switch">
+            <input type="checkbox" checked>
+            <span>On</span>
+        </label>
+    </div>
+    <div class="switches">
+        <label class="pure-material-switch">
+            <input type="checkbox" disabled>
+            <span>Off</span>
+        </label>
+        <br/>
+        <label class="pure-material-switch">
+            <input type="checkbox" checked disabled>
+            <span>On</span>
+        </label>
+    </div>
+
+    <a class="title" href="#" target="">Slider</a>
+    <div>
+        <label class="pure-material-slider">
+            <input type="range" min="0" max="100">
+            <span>Slider</span>
+        </label>
+    </div>
+    <div>
+        <label class="pure-material-slider">
+            <input type="range" min="0" max="100" disabled>
+            <span>Slider</span>
+        </label>
+    </div>
+
+    <a class="title" href="#" target="">Progress - Circular</a>
+    <div><progress class="pure-material-progress-circular"></progress></div>
+    <div></div>
+
+    <a class="title" href="#" target="">Progress - Linear</a>
+    <div class="progresses">
+        <progress class="pure-material-progress-linear" value="0" max="100"></progress>
+        <progress class="pure-material-progress-linear"></progress>
+    </div>
+    <div></div>
+
+    <a class="title" href="#" target="">Textfield - Filled</a>
+    <div class="textfields">
+        <label class="pure-material-textfield-filled">
+            <input placeholder=" ">
+            <span>Empty</span>
+        </label>
+        <label class="pure-material-textfield-filled">
+            <input placeholder=" " value="Some text">
+            <span>Non-empty</span>
+        </label>
+        <label class="pure-material-textfield-filled">
+            <textarea placeholder=" "></textarea>
+            <span>Empty Textarea</span>
+        </label>
+        <label class="pure-material-textfield-filled">
+            <textarea placeholder=" ">Some text</textarea>
+            <span>Non-empty Textarea</span>
+        </label>
+    </div>
+    <div class="textfields">
+        <label class="pure-material-textfield-filled">
+            <input placeholder=" " disabled>
+            <span>Empty</span>
+        </label>
+        <label class="pure-material-textfield-filled">
+            <input placeholder=" " value="Some text" disabled>
+            <span>Non-empty</span>
+        </label>
+        <label class="pure-material-textfield-filled">
+            <textarea placeholder=" " disabled></textarea>
+            <span>Empty Textarea</span>
+        </label>
+        <label class="pure-material-textfield-filled">
+            <textarea placeholder=" " disabled>Some text</textarea>
+            <span>Non-empty Textarea</span>
+        </label>
+    </div>
+
+    <a class="title" href="#" target="">Textfield - Outlined</a>
+    <div class="textfields">
+        <label class="pure-material-textfield-outlined">
+            <input placeholder=" ">
+            <span>Empty</span>
+        </label>
+        <label class="pure-material-textfield-outlined">
+            <input placeholder=" " value="Some text">
+            <span>Non-empty</span>
+        </label>
+        <label class="pure-material-textfield-outlined">
+            <textarea placeholder=" "></textarea>
+            <span>Empty Textarea</span>
+        </label>
+        <label class="pure-material-textfield-outlined">
+            <textarea placeholder=" ">Some text</textarea>
+            <span>Non-empty Textarea</span>
+        </label>
+    </div>
+    <div class="textfields">
+        <label class="pure-material-textfield-outlined">
+            <input placeholder=" " disabled>
+            <span>Empty</span>
+        </label>
+        <label class="pure-material-textfield-outlined">
+            <input placeholder=" " value="Some text" disabled>
+            <span>Non-empty</span>
+        </label>
+        <label class="pure-material-textfield-outlined">
+            <textarea placeholder=" " disabled></textarea>
+            <span>Empty Textarea</span>
+        </label>
+        <label class="pure-material-textfield-outlined">
+            <textarea placeholder=" " disabled>Some text</textarea>
+            <span>Non-empty Textarea</span>
+        </label>
+    </div>
+
+    <a class="title" href="#" target="">Textfield - Standard</a>
+    <div class="textfields">
+        <label class="pure-material-textfield-standard">
+            <input placeholder=" ">
+            <span>Empty</span>
+        </label>
+        <label class="pure-material-textfield-standard">
+            <input placeholder=" " value="Some text">
+            <span>Non-empty</span>
+        </label>
+        <label class="pure-material-textfield-standard">
+            <textarea placeholder=" "></textarea>
+            <span>Empty Textarea</span>
+        </label>
+        <label class="pure-material-textfield-standard">
+            <textarea placeholder=" ">Some text</textarea>
+            <span>Non-empty Textarea</span>
+        </label>
+    </div>
+    <div class="textfields">
+        <label class="pure-material-textfield-standard">
+            <input placeholder=" " disabled>
+            <span>Empty</span>
+        </label>
+        <label class="pure-material-textfield-standard">
+            <input placeholder=" " value="Some text" disabled>
+            <span>Non-empty</span>
+        </label>
+        <label class="pure-material-textfield-standard">
+            <textarea placeholder=" " disabled></textarea>
+            <span>Empty Textarea</span>
+        </label>
+        <label class="pure-material-textfield-standard">
+            <textarea placeholder=" " disabled>Some text</textarea>
+            <span>Non-empty Textarea</span>
+        </label>
+    </div>
+
+</main>
+
+</div>
+</div>
+</div>
+
+<div class="panel">
+<div class="head">HTML</div>
+<div class="body">
+
+<pre>
+<code class="html">
+
+goes here
+
+</code>
+</pre>
+
+</div>
+</div>
+</div>

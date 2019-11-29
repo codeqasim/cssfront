@@ -3,7 +3,7 @@
 .navbar a:hover{-webkit-transition:border-color .3s,background .3s;-moz-transition:border-color .3s,background .3s;transition:border-color .3s,background .3s}
 .navbar ul,.navbar ul li,.navbar ul li a{position:relative}
 .navbar ul{z-index:1}
-.navbar ul li a{display:block;font-size:14px;line-height:20px;text-decoration:none;font-weight:500;box-sizing:border-box;position:relative;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:pointer;outline:0;border:0;-webkit-tap-highlight-color:transparent;display:inline-block;white-space:nowrap;text-decoration:none;vertical-align:baseline;text-align:center;margin:0;min-width:64px;line-height:36px;padding:0 16px;overflow:visible}
+.navbar ul li a{display:block;font-size:14px;line-height:20px;text-decoration:none;font-weight:500;box-sizing:border-box;position:relative;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:pointer;outline:0;border:0;-webkit-tap-highlight-color:transparent;display:inline-block;white-space:nowrap;text-decoration:none;vertical-align:baseline;text-align:left;margin:0;min-width:64px;line-height:36px;padding:0 16px;overflow:visible}
 .navbar>ul>li>a{color:#fff}
 .navbar>ul>li:hover>a,.navbar>ul>li.current>a{background:rgba(0,0,0,0.04)}
 @media only screen and (min-width:768px){.navbar-button{display:none}
@@ -15,8 +15,8 @@
 .navbar ul ul,.navbar ul .menu-wrapper{ position:absolute;visibility:hidden;z-index:1;height:auto;left:3px;top:100%;margin:0;padding:0;background:#fff;opacity:0;display:table}
 .navbar ul li:hover>ul,.navbar ul li:hover>.menu-wrapper{-webkit-transition:opacity .3s,padding .3s;-moz-transition:opacity .3s,padding .3s;transition:opacity .3s,padding .3s;visibility:visible;padding:0;opacity:1; box-shadow: 0 2px 4px -1px rgba(0,0,0,.2), 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12);}
 .navbar ul ul li{display:block;overflow:hidden;height:auto;padding:10px;-webkit-transition:padding .3s;-moz-transition:padding .3s;transition:padding .3s; }
-.navbar ul ul li a{font-size:14px;color:#666;border:1px solid transparent}
-.navbar ul ul li:hover>a,.navbar ul ul li.current>a{border-style:solid;border-width:1px;width:100%;text-align:left;border:1px solid #dcdcdc}
+.navbar ul ul li a{font-size:14px;color:#666;border:1px solid transparent;width: 100%;}
+.navbar ul ul li:hover>a,.navbar ul ul li.current>a{border-style:solid;border-width:1px;width:100%;text-align:left;border:1px solid #dcdcdc;border-radius: 3px}
 .navbar ul li:hover ul li{overflow:visible;padding:0}
 .navbar ul ul li.menu>a:before,.navbar ul ul li.menu>a:after{left:auto;top:50%;right:0;background:#ccc}
 .navbar ul ul li.menu>a:before{margin-top:-1px}
@@ -27,7 +27,7 @@
 .navbar ul .menu-wrapper{position:absolute;left:-1px;top:100%;margin-top:-5px;width:100%;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px}
 .navbar ul .menu-wrapper a{white-space:inherit}
 .navbar ul .menu-wrapper .menu-col{position:relative;float:left;width:23%;margin:0 1%}
-.navbar ul .menu-wrapper h3{margin:20px 15px;font-size:18px;line-height:22px;color:#000}
+.navbar ul .menu-wrapper h3{margin:20px 15px;font-size:18px;line-height:22px;color:#000;text-align: left;}
 .navbar ul .menu-wrapper ul{position:relative;visibility:hidden;height:100%;border:0;opacity:1;background:transparent}
 .navbar ul li:hover>.menu-wrapper ul{visibility:visible}
 .navbar ul .menu-wrapper ul li{padding:0 10px}
