@@ -1,7 +1,9 @@
 [hidden]{display:none;visibility:hidden}
+.side-menu .brand{text-align: center; text-transform: uppercase; padding: 10px 0;}
+.side-menu .brand span{color: #0942cb}
 .side-menu a{text-decoration:none}
 .side-menu .main{border-bottom:1px #fff}
-.side-menu{background:#fff;}
+.side-menu{background:#fff;position: relative; z-index: 100;}
 .side-menu a,.side-menu label{padding:10px 26px;line-height:24px;margin:0;font-size:13px;cursor:pointer;position:relative;display:block;width:100%;text-align:left;background:0;border:0;
 
     text-decoration: none!important;

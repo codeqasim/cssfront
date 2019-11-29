@@ -22,38 +22,15 @@
 <div ng-include="'views/sidebar.html'"></div>
 </div>
 <!--<div class="gutter gutter-horizontal" style="flex-basis: 20px;"></div>-->
-<div id="split-right" class="relative overflow-auto height-viewport-100" style="flex-basis: calc(80%);">
+<div id="split-right" class="relative overflow-auto height-viewport-100" style="flex-basis: calc(80%);padding: 20px;">
 <div ng-include="'views/header.html'"></div>
 <div ng-view></div>
 <div ng-include="'views/footer.html'"></div>
 </div>
-</div>
 
-<aside>
-<div class="theming">
-<label id="toggle" class="pure-material-switch">
-    <input type="checkbox" checked>
-    <span>Colors</span>
-</label>
-<label id="primary" class="pure-material-slider">
-    <input  type="range" min="0" max="360" value="207">
-    <span>Primary</span>
-</label>
-<label id="on-primary" class="pure-material-slider">
-    <input type="range" min="0" max="255" value="255">
-    <span>On Primary</span>
-</label>
-<label id="surface" class="pure-material-slider">
-    <input type="range" min="0" max="255" value="255">
-    <span>Surface</span>
-</label>
-<label id="on-surface" class="pure-material-slider">
-    <input type="range" min="0" max="255" value="0">
-    <span>On Surface</span>
-</label>
-</div>
-</aside>
+<!--<headdrop></headdrop>-->
 
+</div>
 </body>
 </html>
 

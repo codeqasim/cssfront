@@ -55,16 +55,6 @@ templateUrl: './views/form/controls.html',
     }
 }).
 
-when('/checkbox', {
-templateUrl: './views/form/checkbox.html',
- data: {
-      meta: {
-        'title': 'Checkbox',
-        'description': ''
-      }
-    }
-}).
-
 otherwise({
 redirectTo: '/home'
 });
@@ -79,7 +69,7 @@ $locationProvider.html5Mode(true);
 .directive('headdrop', function() {
     return {
         restrict: 'E',
-templateUrl: './themes/default/partials/headdrop.html',
+templateUrl: './views/headdrop.html',
     };
 });
 
