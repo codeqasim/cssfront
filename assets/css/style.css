@@ -57,7 +57,7 @@ ul{margin:0px;padding:0px;list-style:none}
 ul,li,a,p,h1,h2,h3,h4,h5,h6,input,button,textarea,select{font-family: Roboto,"Helvetica Neue",sans-serif;}
 label{width: 100%}
 header nav img { vertical-align: middle; }
-header nav { padding: 2px 16px; box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);position: relative; }
+header nav { min-height: 56px;padding: 2px 16px; box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);position: relative; }
 header nav ul { display: flex; flex-wrap: wrap; margin: 0px; list-style: none; width: 100%;align-items: center; padding: 4px 0px; }
 header nav ul li a { font-weight: 500; box-sizing: border-box; position: relative; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; cursor: pointer; outline: 0; border: none; -webkit-tap-highlight-color: transparent; display: inline-block; white-space: nowrap; text-decoration: none; vertical-align: baseline; text-align: center; margin: 0; min-width: 64px; line-height: 36px; padding: 0 16px; overflow: visible; }
 header nav ul li a:hover { background: rgba(0, 0, 0, 0.04); }
@@ -137,7 +137,12 @@ app-homepage .docs-homepage-row{color:rgba(0,0,0,.54)}
 .docs-homepage-promo-desc[_ngcontent-hqo-c498],.docs-homepage-promo-img[_ngcontent-hqo-c498]{width:50%}
 .docs-homepage-promo-img[_ngcontent-hqo-c498]{text-align:center}
 .docs-homepage-promo-desc[_ngcontent-hqo-c498]{line-height:2;display:flex;flex-direction:column;justify-content:center}
-@media(max-width:720px){.docs-homepage-bottom-start[_ngcontent-hqo-c498],.docs-homepage-row[_ngcontent-hqo-c498]{margin:15px 0}
+
+@media(max-width:720px){
+.docs-homepage-bottom-start[_ngcontent-hqo-c498],.docs-homepage-row[_ngcontent-hqo-c498]{margin:15px 0}
+#split-left { display: none; }
+#split-right { flex-basis: calc(100%) !important;padding: 0px !important; }
+.row{ margin-right: 0rem;margin-left: 0rem; }
 }
 
 .panel { margin-bottom: 25px; border: 1px solid #E1E1E1; border-bottom: 0; background-color: #fff; border-radius: 0; -webkit-box-shadow: none; box-shadow: none; }

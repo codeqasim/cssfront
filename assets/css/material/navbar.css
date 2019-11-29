@@ -33,7 +33,7 @@
 .navbar ul .menu-wrapper ul li{padding:0 10px}
 .navbar .show-menu{display:none}
 }@media only screen and (max-width:767px){.navbar{border-color:rgba(100%,100%,100%,0.3)}
-.navbar-button,.navbar{position:fixed;right:0;top:0;z-index:9999;background:#fff;-webkit-box-shadow:rgba(0,0,0,.37) 0 50px 100px,rgba(0,0,0,.22) 0 5px 50px;box-shadow:rgba(0,0,0,.37) 0 50px 100px,rgba(0,0,0,.22) 0 5px 50px}
+.navbar-button,.navbar{position:absolute;right:0;top:0;z-index:9999;background:#fff;-webkit-box-shadow:rgba(0,0,0,.37) 0 50px 100px,rgba(0,0,0,.22) 0 5px 50px;box-shadow:rgba(0,0,0,.37) 0 50px 100px,rgba(0,0,0,.22) 0 5px 50px}
 input.navbar-button{display:none}
 label.navbar-button:hover{background:rgba(255,255,255,0.19)}
 label.navbar-button{display:inline-block;width:56px;height:54px;text-transform:uppercase;background:transparent;color:#fff;cursor:pointer;text-indent:-9999px}

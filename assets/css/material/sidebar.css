@@ -1,48 +1,14 @@
 [hidden]{display:none;visibility:hidden}
-.side-menu .brand{text-align: center; text-transform: uppercase; padding: 10px 0;}
-.side-menu .brand span{color: #0942cb}
+.side-menu .brand{text-align:center;text-transform:uppercase;padding:10px 0}
+.side-menu .brand span{color:#0942cb}
 .side-menu a{text-decoration:none}
 .side-menu .main{border-bottom:1px #fff}
-.side-menu{background:#fff;position: relative; z-index: 100;}
-.side-menu a,.side-menu label{padding:10px 26px;line-height:24px;margin:0;font-size:13px;cursor:pointer;position:relative;display:block;width:100%;text-align:left;background:0;border:0;
-
-    text-decoration: none!important;
-    align-items: center;
-    height: 48px;
-    position: relative;
-    overflow: hidden;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    color: currentColor;
-
-    }
-.side-menu a,.side-menu label strong{ color: #004bff }
+.side-menu{background:#fff;position:relative;z-index:100}
+.side-menu a,.side-menu label{padding:10px 26px;line-height:24px;margin:0;font-size:13px;cursor:pointer;position:relative;display:block;width:100%;text-align:left;background:0;border:0;text-decoration:none!important;align-items:center;height:48px;position:relative;overflow:hidden;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;color:currentColor}
+.side-menu a,.side-menu label strong{color:#004bff}
 .side-menu a:focus,.nav a:hover,.side-menu label:focus,.side-menu label:hover{background:rgba(3,3,3,0.07058823529411765)}
-.menu-list a,.menu-list label{padding-left:1rem;color:rgba(0,0,0,.54)
-
-    text-decoration: none!important;
-    display: flex;
-    align-items: center;
-    height: 48px;
-    padding: 0 24px;
-    position: relative;
-    overflow: hidden;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    color: currentColor;
-
-}
-.menu-list a:focus,.menu-list a:hover,.menu-list label:focus,.menu-list label:hover{color:#0942cb;
-    background-color: rgba(0,0,0,.04)!important;
-    text-decoration: none!important;
-
-}
+.menu-list a,.menu-list label{padding-left:1rem;color:rgba(0,0,0,.54) text-decoration:none!important;display:flex;align-items:center;height:48px;padding:0 24px;position:relative;overflow:hidden;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;color:currentColor}
+.menu-list a:focus,.menu-list a:hover,.menu-list label:focus,.menu-list label:hover{color:#0942cb;background-color:rgba(0,0,0,.04)!important;text-decoration:none!important}
 .sub-menu-list a,.sub-menu-list label{padding-left:2rem;padding:4px 15px}
 .sub-menu-list a:focus,.sub-menu-list a:hover,.sub-menu-list label:focus,.sub-menu-list label:hover{color:#0942cb}
 .sub-sub-menu-list a,.sub-sub-menu-list label{padding-left:3rem;padding:4px 15px}
@@ -52,4 +18,4 @@
 label>span{font-size:22px;float:right;transition:-webkit-transform .25s ease;transition:transform .25s ease;transition:transform .25s ease,-webkit-transform .25s ease}
 .nav__list input[type=checkbox]:checked+label>span{-webkit-transform:rotate(90deg);transform:rotate(90deg)}
 .side-menu label{margin-bottom:0;background:rgba(0,75,255,.1)}
-.side-menu label:after { content: ""; position: absolute; left: 0; top: 0; display: flex; width: 6px; height: 100%; border-radius: 0; background: #004bff; }
+.side-menu label:after{content:"";position:absolute;left:0;top:0;display:flex;width:6px;height:100%;border-radius:0;background:#004bff}
