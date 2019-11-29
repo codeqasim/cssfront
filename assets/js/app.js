@@ -44,7 +44,7 @@ templateUrl: './views/about.html',
     }
 }).
 
-when('/buttons', {
+when('form/buttons', {
 templateUrl: './views/form/buttons.html',
  data: {
       meta: {
